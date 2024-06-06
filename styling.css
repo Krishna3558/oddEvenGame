@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#scoreboard{
+    background-color: navy;
+    color: white;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 20%;
+}
+
+.scoreShow{
+    display: flex;
+    gap: 1rem;
+}
+
+#compturn{
+    margin-top: 8vh;
+}
+
+#compchoice{
+    margin-top: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.compno{
+    border: 2px solid black;
+    height: 10vh;
+    width: 10vh;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#yourturn{
+    margin-top: 8vh;
+}
+
+.yourno{
+    border: 2px solid black;
+    height: 10vh;
+    width: 10vh;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.yourno:hover{
+    cursor: pointer;
+}
+
+.yourno:active{
+    opacity: 0.8;
+}
+
+#numbers{
+    margin-top: 8vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4vw;
+}
+
+#msg{
+    margin-top: 5vh;
+    font-size: 1.6rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+#spl{
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 464px) {
+    #scoreboard{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 397px) {
+    #msg{
+        font-size: 1.2rem;
+        gap: 1rem;
+    }
+
+    #spl{
+        font-size: 1.1rem;
+    }
+
+    #scoreboard{
+        font-size: 1.2rem;
+    }
+}
